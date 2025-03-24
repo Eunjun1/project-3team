@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:project_03_24/view/jwscreen.dart';
 import 'package:project_03_24/view/main%20screen.dart';
-import 'package:project_03_24/view/sungbae.dart';
+
+import 'view/jhscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,11 +20,11 @@ class MyApp extends StatelessWidget {
       initialRoute: '/main',
       routes: {
         '/main': (context) => Mainscreen(),
-        // '/EJ': (context) => EjScreen(),
-        // '/JW': (context) => JwScreen(),
-        // '/TM': (context) => TmScreen(),
-        // '/JH': (context) => JHScreen(),
-        '/SB': (context) => SbScreen(),
+        //'/EJ': (context) => EjScreen(),
+        //'/JW': (context) => JwScreen(),
+        //'/TM': (context) => TmScreen(),
+        '/JH': (context) => JHScreen(),
+        //'/SB': (context) => SbScreen(),
       },
     );
   }
