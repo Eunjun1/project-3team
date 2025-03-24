@@ -34,7 +34,7 @@ class TmScreen extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              '이름 : 김태민',
+                              '이름 : 2번남 김태민',
                               style: TextStyle(
                                 fontSize: 16,
                                 color: Colors.black,
@@ -66,7 +66,7 @@ class TmScreen extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              '군대 : 공군 820기 병장 만기 전역',
+                              '군대 : 공군 병820기 만기 전역',
                               style: TextStyle(
                                 fontSize: 16,
                                 color: Colors.black,
@@ -82,7 +82,7 @@ class TmScreen extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              '학력 : 청주대학교',
+                              '학력 : 청주대학교 졸업',
                               style: TextStyle(
                                 fontSize: 16,
                                 color: Colors.black,
@@ -130,6 +130,22 @@ class TmScreen extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
+                              '취미 : 게임',
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
                               '취업하고 싶은 회사 : 넥슨',
                               style: TextStyle(
                                 fontSize: 16,
@@ -145,7 +161,7 @@ class TmScreen extends StatelessWidget {
                   Column(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.fromLTRB(8, 40, 8, 18),
                         child: Row(
                           children: [
                             Image.asset(
@@ -157,7 +173,7 @@ class TmScreen extends StatelessWidget {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.fromLTRB(8, 50, 8, 8),
+                        padding: const EdgeInsets.fromLTRB(8, 30, 8, 32),
                         child: Row(
                           children: [
                             Image.asset(
