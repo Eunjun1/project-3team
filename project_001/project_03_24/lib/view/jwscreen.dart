@@ -81,7 +81,7 @@ class JwScreen extends StatelessWidget {
                   backgroundColor: Colors.brown,
                 ),
                 child: Text(
-                  '다른사람 소개보기',
+                  '메인으로',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
